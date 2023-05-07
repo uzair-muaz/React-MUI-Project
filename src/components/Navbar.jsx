@@ -1,6 +1,17 @@
-import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, Toolbar, Typography, styled } from '@mui/material'
-import React, { useState } from 'react'
-import { Mail, Notifications, Pets } from '@mui/icons-material';
+import { Mail, Notifications, Pets } from "@mui/icons-material";
+import {
+    AppBar,
+    Avatar,
+    Badge,
+    Box,
+    InputBase,
+    Menu,
+    MenuItem,
+    styled,
+    Toolbar,
+    Typography,
+} from "@mui/material";
+import React, { useState } from "react";
 
 const StyledToolbar = styled(Toolbar)({
     display: "flex",
